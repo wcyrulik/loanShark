@@ -3,10 +3,15 @@
     --secondary-color: #ff993b;
     --dark-color: #292929;
     --white-color: #dff3e4;
+    --dark-blue: #0a304e;
 }
 
 body{
     color: var(--dark-color);
+}
+
+thead{
+    background-color: var(--dark-blue);
 }
 
 nav {
@@ -22,6 +27,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 main>.container {
     padding: 60px 15px 0;
+}
+.minHeight {
+    min-height: 80vh;
+}
+form {
+    background-color: #cfd1d0;
 }
 
 footer {
